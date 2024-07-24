@@ -1,8 +1,4 @@
 # RealTimeChatApplication
- Task 2: Live Chat Application
-•	   - Create a real-time chat application using Java.
-•	   - Focus on building a responsive and efficient chat interface.
-•	   - Incorporate features like user authentication, message encryption, and multimedia support.
 Developed a Real-Time Chatting Application in Java and using relevant frameworks. The project is responsive and has an efficient chat interface.
 Features like user authentication, message encryption, and multimedia support are incorporated.
 
