@@ -7,7 +7,7 @@ This project is developed in IntelliJ IDE.
 The following are the dependencies to run the project:
 - Download openjdk-22.0.2 from https://gluonhq.com/products/javafx/
 - Go to File -> Project Structure -> Add jar files in Libraries and openjdk-22 in Modules -> Click Apply ->OK
-- Go to Main -> right click on the Main.java -> Modify Run Configuration... -> Add VM options -> <br/>
+- Go to Main -> right-click on the Main.java -> Modify Run Configuration... -> Add VM options -> <br/>
 ```--module-path "D:\Program Files\My project\openjfx-22.0.2_windows-x64_bin-sdk\javafx-sdk-22.0.2\lib" --add-modules javafx.controls,javafx.fxml``` <br/>
  write this in VM options not program arguments -> Click Apply -> OK
   Repeat the same for Main2.
