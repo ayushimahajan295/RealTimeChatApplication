@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="controller.ChatController" spacing="10" alignment="CENTER">
+    <Label text="Real-Time Chat" style="-fx-font-size: 20px;"/>
+    <ListView fx:id="messageListView" VBox.vgrow="ALWAYS"/>
+    <HBox spacing="5">
+        <TextField fx:id="messageTextField" HBox.hgrow="ALWAYS"/>
+        <Button text="Send" onAction="#handleSendMessage"/>
+    </HBox>
+    <Button text="Send Image" onAction="#handleSendImage"/>
+</VBox>

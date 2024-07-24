@@ -1,0 +1,16 @@
+.root {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.button {
+    -fx-font-size: 14px;
+}
+
+.text-field, .password-field {
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
